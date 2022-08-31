@@ -5,13 +5,19 @@ import Home from "./components/Home";
 import Pricing from "./components/Pricing";
 import NavBar from "./components/NavBar";
 import FarInJim from "./components/FarInJim";
+import ErrorPage from './components/ErrorPage';
+import Choice from "./components/Choice";
 
 const App = ()=> {
   const initialPricing = [
-    { level: "Hobby", cost: 0},
-    
-    
-  ]
+    { level: "Entry", cost: 0},
+    { level: "Modest", cost: 10},
+    { level: "Super", cost: 100}
+  ];
+
+  const [pricing, setPricing] = useState(initialPricing);
+      
+
 
   return (
     <BrowserRouter>
@@ -21,8 +27,10 @@ const App = ()=> {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/pricing" element={<Pricing prices={pricing} />} />
         <Route path="/farinjim" element={<FarInJim />} />
+        <Route path="/choices/:slug" element={<Choice />} />
+        <Route path="*" element={<ErrorPage />}/>
       </Routes>
     </BrowserRouter>
   );

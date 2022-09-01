@@ -1,7 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const NavBar = () => {
+    const navigate = useNavigate();
+    const goBack = () => navigate(-1);
+
     return (
         <ul>
             <li>
@@ -15,6 +18,12 @@ const NavBar = () => {
             </li>
             <li>    
                 <Link to="/farinjim">FarInJim</Link>
+            </li>
+            <li>    
+                <Link to="/choices">Choices</Link>
+            </li>
+            <li>    
+                <button onClick={goBack}>Back</button>
             </li>
         </ul>
     );

@@ -7,6 +7,8 @@ import NavBar from "./components/NavBar";
 import FarInJim from "./components/FarInJim";
 import ErrorPage from './components/ErrorPage';
 import Choice from "./components/Choice";
+import StyleSheet from "./components/StyleSheet";
+
 
 const App = ()=> {
   const initialPricing = [
@@ -30,6 +32,7 @@ const App = ()=> {
         <Route path="/pricing" element={<Pricing prices={pricing} />} />
         <Route path="/farinjim" element={<FarInJim />} />
         <Route path="/choices/:slug" element={<Choice />} />
+        <Route path="/StyleSheet" element={<StyleSheet />} />
         <Route path="*" element={<ErrorPage />}/>
       </Routes>
     </BrowserRouter>

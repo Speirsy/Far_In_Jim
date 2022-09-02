@@ -23,6 +23,9 @@ const NavBar = () => {
                 <Link to="/choices">Choices</Link>
             </li>
             <li>    
+                <Link to="/StyleSheet">StyleSheet</Link>
+            </li>
+            <li>    
                 <button onClick={goBack}>Back</button>
             </li>
         </ul>

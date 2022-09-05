@@ -20,6 +20,12 @@ const NavBar = () => {
                 <Link to="/farinjim">FarInJim</Link>
             </li>
             <li>    
+                <Link to="/$5000songs">$5000Songs</Link>
+            </li>
+            <li>    
+                <Link to="/videos">Videos</Link>
+            </li>
+            <li>    
                 <Link to="/choices">Choices</Link>
             </li>
             <li>    

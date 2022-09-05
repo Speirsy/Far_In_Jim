@@ -8,6 +8,8 @@ import FarInJim from "./components/FarInJim";
 import ErrorPage from './components/ErrorPage';
 import Choice from "./components/Choice";
 import StyleSheet from "./components/StyleSheet";
+import $5000Songs from "./components/$5000Songs";
+import Videos from "./components/Videos";
 
 
 const App = ()=> {
@@ -32,6 +34,8 @@ const App = ()=> {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/$5000songs" element={<$5000Songs />} />
+        <Route path="/videos" element={<Videos />} />
         <Route path="/about" element={<About />} />
         <Route path="/pricing" element={<Pricing prices={pricing} />} />
         <Route path="/farinjim" element={<FarInJim />} />

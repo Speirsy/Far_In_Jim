@@ -22,6 +22,10 @@ const App = ()=> {
 
 
   return (
+
+    <div className="App">
+      <StyleSheet primary={true} />
+    
     <BrowserRouter>
     WTF? I can just write here?
 
@@ -36,6 +40,7 @@ const App = ()=> {
         <Route path="*" element={<ErrorPage />}/>
       </Routes>
     </BrowserRouter>
+    </div>
   );
 }
 

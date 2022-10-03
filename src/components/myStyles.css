@@ -1,5 +1,6 @@
 .primary {
     color:orange;
+    justify-content: center;
 }
 
 .centre {
@@ -11,3 +12,5 @@
     font-size: 72px;
 }
 
+.body {
+    background-color: rgb(214, 212, 240);}

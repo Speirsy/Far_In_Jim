@@ -3,7 +3,7 @@ import './myStyles.css'
 
 const FarInJim = () => (
   <div>
-    {/* <h4 className={className}> Far In Jim</h4> */}
+    {/* <h4 className={className}> Far In Jim</h4>  */}
     <p className='primary'>Far In Jim Makes Money</p>
   </div>
 

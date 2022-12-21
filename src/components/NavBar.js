@@ -13,9 +13,6 @@ const NavBar = () => {
             <li>
                 <Link to="/about">About</Link>
             </li>
-            {/* <li>    
-                <Link to="/pricing">Pricing</Link>
-            </li> */}
             <li>    
                 <Link to="/farinjim">FarInJim</Link>
             </li>
@@ -24,9 +21,6 @@ const NavBar = () => {
             </li>
             <li>    
                 <Link to="/videos">Videos</Link>
-            </li>
-            <li>    
-                <Link to="/choices">Choices</Link>
             </li>
             <li>    
                 <Link to="/StyleSheet">StyleSheet</Link>

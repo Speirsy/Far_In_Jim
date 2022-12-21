@@ -29,7 +29,7 @@ const App = ()=> {
       <StyleSheet primary={true} />
     
     <BrowserRouter>
-    WTF? I can just write here?
+This Text In App.js under BrowserRouter
 
       <NavBar />
       <Routes>

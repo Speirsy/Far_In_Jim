@@ -29,7 +29,8 @@ const App = ()=> {
       <StyleSheet primary={true} />
     
     <BrowserRouter>
-This Text In App.js under BrowserRouter
+
+This Text from App.js under BrowserRouter
 
       <NavBar />
       <Routes>

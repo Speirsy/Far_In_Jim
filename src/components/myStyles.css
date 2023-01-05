@@ -1,5 +1,5 @@
 .primary {
-    color:orange;
+    color:#070707;
     justify-content: center;
 }
 
@@ -13,4 +13,8 @@
 }
 
 .body {
-    background-color: rgb(214, 212, 240);}
+    background-color: rgb(233, 33, 33);}
+
+.bodyHome {
+    background-color: burlywood;
+}    

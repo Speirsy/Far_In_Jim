@@ -1,9 +1,9 @@
 import React from 'react'
 import './myStyles.css' 
 
-function $5000Songs() {
+const $5000Songs = () => {
   return (
-    <body className='body'>
+    <body className='bodyHome'>
     <div>
     
     <h1 className='centre'> $5000 Songs</h1>
@@ -49,4 +49,4 @@ Be the sole owner of the physical musical artefact (farinjim retains copyright) 
   )
 }
 
-export default $5000Songs
+export default $5000Songs;

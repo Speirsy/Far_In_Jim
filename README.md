@@ -1,3 +1,18 @@
+# Musician's Website
+
+Musician and Artist, Far In Jim requires a website with the main aim of selling analogue music artefacts via the NFT website opensea. 
+
+## MVP
+
+A user should be able to - 
+
+
+- View main sales page. Page includes product description and video,  audio samples buttons, live price in Ether and link to opensea purchase. 
+- View Blog and other work by artist. 
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

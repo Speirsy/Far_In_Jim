@@ -9,6 +9,7 @@
 }
 
 .font-xl {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 72px;
 }
 
@@ -18,3 +19,7 @@
 .bodyHome {
     background-color: burlywood;
 }    
+
+.font {
+    font-family: 'Times New Roman';
+}

@@ -15,7 +15,7 @@ import Videos from "./components/Videos";
 const App = ()=> {
 
   //  Right. This pricing business was inherited from a previos codeclan template and is irrelevant. 
-  // I've tried taking it out but the whole thing breaks. So I've left it in for now. Obviously I'll be taking it out when I figure it out.
+  // I've tried taking it out but the whole thing breaks. So I've left it in for now. Obviously I'll be taking it out when I figure it out. Testing.
   const initialPricing = [
     { level: "Entry", cost: 0},
     { level: "Modest", cost: 10},

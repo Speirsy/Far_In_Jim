@@ -1,13 +1,13 @@
 # Musician's Website
 
-Musician and Artist, Far In Jim requires a website with the main aim of selling analogue music artefacts via the NFT website opensea. 
+Musician and Artist, Far In Jim requires a website with the main aim of selling analogue music artefacts via the NFT website Opensea. The other aim being to collate previous Far In Jim works and a blog. Maybe even a Speirsy Bass Blog section too. 
 
 ## MVP
 
 A user should be able to - 
 
 
-- View main sales page. Page includes product description and video,  audio samples buttons, live price in Ether and link to opensea purchase. 
+- View main sales page. Page includes product description and video,  audio samples buttons, live price in Ether and link to Opensea purchase. 
 - View Blog and other work by artist. 
 
 

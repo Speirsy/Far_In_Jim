@@ -1,4 +1,3 @@
-
 import './myStylesFIJ.css' 
 
 const FarInJim = () => (

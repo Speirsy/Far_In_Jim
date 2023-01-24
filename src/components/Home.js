@@ -9,13 +9,17 @@ const Home = () => {
 
   
   <div>
-    <h4>Home</h4>
+  
     <ul className='primary, font-xl'>
     <li>
       <Link to="/farinjim">Far In Jim</Link>
+      
     </li>
     <li>    
       <Link to="/$5000songs">$5000Songs</Link>
+    </li>
+    <li>
+      <Link to="/johnpaulspeirs">Bass JPS</Link>
     </li>
     </ul>
   </div>

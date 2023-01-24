@@ -10,7 +10,8 @@ import Choice from "./components/Choice";
 import StyleSheet from "./components/StyleSheet";
 import $5000Songs from "./components/$5000Songs";
 import Videos from "./components/Videos";
-
+import JohnPaulSpeirs from "./components/JPS";
+import JPSVids from "./components/JPSVids";
 
 const App = ()=> {
 
@@ -45,6 +46,8 @@ This Text from App.js under BrowserRouter
         <Route path="/farinjim" element={<FarInJim />} />
         <Route path="/choices/:slug" element={<Choice />} />
         <Route path="/StyleSheet" element={<StyleSheet />} />
+        <Route path="/johnpaulspeirs" element={<JohnPaulSpeirs />} />
+        <Route path="/johnpaulspeirs/JPSvids" element={<JPSVids />} />
         <Route path="*" element={<ErrorPage />}/>
       </Routes>
     </BrowserRouter>

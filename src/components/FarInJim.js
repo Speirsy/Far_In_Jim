@@ -7,7 +7,7 @@ const FarInJim = () => (
     <p className='primary'>Far In Jim Makes Some Money</p>
   </div>
 
-  );
+  ); 
 
   
   

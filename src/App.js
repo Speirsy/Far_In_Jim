@@ -12,7 +12,7 @@ import $5000Songs from "./components/$5000Songs";
 import Videos from "./components/Videos";
 import JohnPaulSpeirs from "./components/JPS";
 import JPSVids from "./components/JPSVids";
-
+import JPSBlog from "./components/JPSBlog";
 const App = ()=> {
 
   //  Right. This pricing business was inherited from a previos codeclan template and is irrelevant. 
@@ -48,6 +48,7 @@ This Text from App.js under BrowserRouter
         <Route path="/StyleSheet" element={<StyleSheet />} />
         <Route path="/johnpaulspeirs" element={<JohnPaulSpeirs />} />
         <Route path="/johnpaulspeirs/JPSvids" element={<JPSVids />} />
+        <Route path="/johnpaulspeirs/JPSBlog" element={<JPSBlog />} />
         <Route path="*" element={<ErrorPage />}/>
       </Routes>
     </BrowserRouter>

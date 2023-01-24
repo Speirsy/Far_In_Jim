@@ -1,0 +1,25 @@
+.primary {
+    color:#070707;
+    justify-content: center;
+}
+
+.centre {
+    align-items: center;
+    justify-content: center;
+}
+
+.font-xl {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 72px;
+}
+
+.body {
+    background-color: rgb(233, 33, 33);}
+
+.bodyHome {
+    background-color: burlywood;
+}    
+
+.font {
+    font-family: 'Times New Roman';
+}

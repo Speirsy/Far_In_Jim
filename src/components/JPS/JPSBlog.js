@@ -1,6 +1,7 @@
 const JPSBlog = () => {
 
     return (
+        
         <h1>
             JPS Blog
         </h1>

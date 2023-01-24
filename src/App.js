@@ -4,15 +4,16 @@ import About from "./components/About";
 import Home from "./components/Home";
 import Pricing from "./components/Pricing";
 import NavBar from "./components/NavBar";
-import FarInJim from "./components/FarInJim";
+import FarInJim from "./components/farinjim/FarInJim";
 import ErrorPage from './components/ErrorPage';
 import Choice from "./components/Choice";
 import StyleSheet from "./components/StyleSheet";
 import $5000Songs from "./components/$5000Songs";
 import Videos from "./components/Videos";
-import JohnPaulSpeirs from "./components/JPS";
-import JPSVids from "./components/JPSVids";
-import JPSBlog from "./components/JPSBlog";
+import JohnPaulSpeirs from "./components/JPS/JPS";
+import JPSVids from "./components/JPS/JPSVids";
+import JPSBlog from "./components/JPS/JPSBlog";
+import JPSDiscog from "./components/JPS/JPSDiscog";
 const App = ()=> {
 
   //  Right. This pricing business was inherited from a previos codeclan template and is irrelevant. 
@@ -49,6 +50,7 @@ This Text from App.js under BrowserRouter
         <Route path="/johnpaulspeirs" element={<JohnPaulSpeirs />} />
         <Route path="/johnpaulspeirs/JPSvids" element={<JPSVids />} />
         <Route path="/johnpaulspeirs/JPSBlog" element={<JPSBlog />} />
+        <Route path="/johnpaulspeirs/JPSDiscog" element={<JPSDiscog />} />
         <Route path="*" element={<ErrorPage />}/>
       </Routes>
     </BrowserRouter>

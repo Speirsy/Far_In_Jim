@@ -1,6 +1,11 @@
+import NavBarFij from "../NavBarFij";
+
 const FIJVideos = () => {
 
     return (
+
+        <>
+        <NavBarFij/>
     <h1>
         Far In Jim Videos
  
@@ -11,7 +16,7 @@ const FIJVideos = () => {
          </video>
 
    </h1>
-
+        </>
 
 
     )

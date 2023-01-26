@@ -1,13 +1,19 @@
 
+import NavBarFij from '../NavBarFij';
 import './myStylesJPS.css'
 
 const JohnPaulSpeirs = () => {
 return (
+    <>
+    <NavBarFij /> 
  <ul>
     <li>
-    bass playing stuff
+    JPS bass playing stuff 
+    
     </li>
 </ul>
+
+</>
 )
 };
 

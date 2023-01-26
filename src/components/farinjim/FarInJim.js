@@ -1,6 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
 import './myStylesFIJ.css' 
-import NavBarFij from './NavBarFij';
+import NavBarFij from '../NavBarFij';
 // import NavBar from '../NavBar';
 
 const FarInJim = () => {
@@ -10,7 +10,7 @@ const FarInJim = () => {
   return (
 
     // what's that thing that encloses jsx elements?
-    // these guys <> </>
+    // these guys <> </> Fragment!
       <>
        <NavBarFij /> 
 

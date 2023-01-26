@@ -26,7 +26,7 @@ const App = ()=> {
     
     <BrowserRouter>
 
-      {/* <NavBar /> */}
+      <NavBar />
       {/* comment out line above to remove Navbar from home page */}
 
       <Routes>
